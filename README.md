@@ -78,11 +78,12 @@ Convolutional neural networks (CNNs) possess the capability to learn powerful fe
   - The combination method has parameters nholes = 1 and length = 20 for the Cutout method, alpha = 0.2 for the Mixup method, and lambda = 0.75 for the Rotation method.
   - Best validation accuracy: 0.8918 with loss: 0.3261.
     
-**Optional Requirement and Own Ideas**
+**Optional Requirements and Own Ideas**
 - **Project_6test.ipynb**
   - Testing models on a corrupted variant of the CIFAR-10 test set with selected corruptions.
   - Rotation and Combination methods are least robust. Mixup consistently outperforms, while Cutout excels in brightness corruption but lacks stability compared to Mixup.
   - Results:
+
 
   | Corruption        | Gaussian Noise | Shot Noise | Impulse Noise | Brightness | Contrast |
   |-------------------|----------------|------------|---------------|------------|----------|
