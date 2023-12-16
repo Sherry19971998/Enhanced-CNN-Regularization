@@ -10,9 +10,9 @@ Convolutional neural networks (CNNs) possess the capability to learn powerful fe
 2. [Models](#models)
 3. [Installation](#installation)
 4. [Contributors](#contributors)
-5. [Acknowledgements](#acknowledgements)
-6. [References](#references)
-7. [Project Guidance](#project-guidance)
+5. [References](#references)
+6. [Project Guidance](#project-guidance)
+7. [Acknowledgements](#acknowledgements)
 
 
 
@@ -126,10 +126,6 @@ git clone https://github.com/jinws1999/Enhanced-CNN-Regularization.git
 - Dong Chen
 - Xinyi Xie
 
-## Acknowledgements
-
-This project makes use of references as follows.
-
 ## References
 
 [1] DeVries, T., & Taylor, G. W. (2017). Improved regularization of convolutional neural networks with cutout. arXiv preprint arXiv:1708.04552.
@@ -152,3 +148,7 @@ Special thanks to the Duke University ECE 661 Course Staff, including:
 - Prof. Hai Li
 
 We express our gratitude for their valuable guidance and support throughout the project.
+
+## Acknowledgements
+
+This project expresses gratitude to the referenced works for their valuable insights, which have significantly influenced and enriched our work. The project and its contributors do not claim ownership of the referenced works. The use of these references is solely for educational and research purposes, and the intellectual property rights remain with the respective authors and copyright holders. Any opinions, findings, conclusions, or recommendations expressed in this project are those of the authors and do not necessarily reflect the views of the original authors of the referenced works.
