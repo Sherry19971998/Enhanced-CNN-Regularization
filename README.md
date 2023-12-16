@@ -8,21 +8,12 @@ Convolutional neural networks (CNNs) possess the capability to learn powerful fe
 
 1. [Overview](#overview)
 2. [Models](#models)
-   - [Project_1default.ipynb](#project_1defaultipynb)
-   - [Project_2cutout.ipynb](#project_2cutoutipynb)
-   - [Project_3mixup.ipynb](#project_3mixupipynb)
-   - [Project_4rotation.ipynb](#project_4rotationipynb)
-   - [Project_5all.ipynb](#project_5allipynb)
-3. [Optional Requirement and Own Ideas](#optional-requirement-and-own-ideas)
-   - [Project_6test.ipynb](#project_6testipynb)
-   - [Project_4rotation_newtrain.ipynb](#project_4rotation_newtrainipynb)
-   - [Project_5all_newtrain.ipynb](#project_5all_newtrainipynb)
-   - [attacker.py](#attackerpy)
-4. [Installation](#installation)
-5. [Contributors](#contributors)
-6. [Acknowledgements](#acknowledgements)
-7. [References](#references)
-8. [Project Guidance](#project-guidance)
+3. [Installation](#installation)
+4. [Contributors](#contributors)
+5. [Acknowledgements](#acknowledgements)
+6. [References](#references)
+7. [Project Guidance](#project-guidance)
+
 
 
 ## Models
