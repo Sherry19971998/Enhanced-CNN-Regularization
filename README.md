@@ -124,7 +124,7 @@ git clone https://github.com/jinws1999/Enhanced-CNN-Regularization.git
 ## Contributors
 
 - Weisheng Jin
-- Dong Chen
+- Chen Dong
 - Xinyi Xie
 
 ## References
