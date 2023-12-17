@@ -18,13 +18,13 @@ Convolutional neural networks (CNNs) possess the capability to learn powerful fe
 
 ## Models
 
-- **Project_1default.ipynb**
+- **Step_1default.ipynb**
   - Initial training of ResNet-20 on CIFAR-10 with cross-entropy loss to establish a baseline model.
   - Hyperparameters: Initial learning rate of 0.1, weight decay of 1e-4, Cross-Entropy Loss, Stochastic Gradient Descent (SGD) with momentum of 0.9.
   - Training involves a learning rate decay at epochs 60, 120, and 160, spanning 200 epochs with a batch size of 128.
   - Best validation accuracy: 0.9145 with loss: 0.3077
 
-- **Project_2cutout.ipynb**
+- **Step_2cutout.ipynb**
   - Integration of the cutout regularizer with adjustments to hyperparameters (n_holes, length).
   - Testing with various parameters, recording best validation accuracy.
   - Best validation accuracy: 0.9285 with loss: 0.2441. The best parameter is n_holes=1, length= 20.
@@ -42,7 +42,7 @@ Convolutional neural networks (CNNs) possess the capability to learn powerful fe
     | 2       | 12     | 0.9280                   | 0.2451  |
     | 2       | 16     | 0.9275                   | 0.2433  |
       
-- **Project_3mixup.ipynb**
+- **Step_3mixup.ipynb**
   - Implementation of the mixup regularizer with adjustments to the mix coefficient alpha.
   - Testing with various alpha values, recording best validation accuracy.
   - Best validation accuracy: 0.9252 with loss: 0.2650. The best parameter is alpha = 0.2.
@@ -57,7 +57,7 @@ Convolutional neural networks (CNNs) possess the capability to learn powerful fe
     | 0.4     | 0.9245                   | 0.3317  |
     | 1       | 0.9242                   | 0.3297  |
 
-- **Project_4rotation.ipynb**
+- **Step_4rotation.ipynb**
   - Implementation of the auxiliary rotation head on ResNet-20.
   - Training with the rotation head for self-supervision on CIFAR-10.
   - Best validation accuracy: 0.9092 with loss: 0.3341. The best parameter is lambda = 0.75.
@@ -73,13 +73,13 @@ Convolutional neural networks (CNNs) possess the capability to learn powerful fe
     | 0.75    | 0.9092                   | 0.3341  |
     | 1       | 0.9023                   | 0.3278  |
 
-- **Project_5all.ipynb**
+- **Step_5all.ipynb**
   - Combination of all three methods with their best parameters.
   - The combination method has parameters nholes = 1 and length = 20 for the Cutout method, alpha = 0.2 for the Mixup method, and lambda = 0.75 for the Rotation method.
   - Best validation accuracy: 0.8918 with loss: 0.3261.
     
 **Optional Requirements and Own Ideas**
-- **Project_6test.ipynb**
+- **Step_6test.ipynb**
   - Testing models on a corrupted variant of the CIFAR-10 test set with selected corruptions.
   - Rotation and Combination methods are least robust. Mixup consistently outperforms, while Cutout excels in brightness corruption but lacks stability compared to Mixup.
   - Results:
@@ -93,11 +93,11 @@ Convolutional neural networks (CNNs) possess the capability to learn powerful fe
   | Rotation          | 0.1501         | 0.161      | 0.3579        | 0.9003     | 0.7804   |
   | Combination       | 0.1537         | 0.1648     | 0.3032        | 0.8878     | 0.7933   |
   
-- **Project_4rotation_newtrain.ipynb**
+- **Step_4rotation_140epochs.ipynb**
   - New training method for rotation model with lambda=0.75 (100 epochs only for rotation loss and 40 epochs for both rotation and prediction loss).
   - Best validation accuracy: 0.8476 with loss: 0.4483.
 
-- **Project_5all_newtrain.ipynb**
+- **Step_5all_140epochs.ipynb**
   - New training method for combine model with lambda=0.75 (100 epochs only for rotation loss and 40 epochs for both rotation and prediction loss).
   - Best validation accuracy: 0.8254 with loss: 0.5172.
 
