@@ -123,8 +123,8 @@ git clone https://github.com/jinws1999/Enhanced-CNN-Regularization.git
 
 ## Contributors
 
-- Weisheng Jin
 - Chen Dong
+- Weisheng Jin
 - Xinyi Xie
 
 ## References
